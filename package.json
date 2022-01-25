@@ -17,6 +17,13 @@
     "styleguide",
     "lint"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavel-sturov/eslint-config-winline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pavel-sturov/eslint-config-winline.git"
+  },
   "devDependencies": {
     "eslint": "^8.7.0",
     "@typescript-eslint/eslint-plugin": "^5.9.1",
