@@ -22,6 +22,7 @@ module.exports = {
     'arrow-parens':                         [2, 'as-needed'],
     'brace-style':                          [2, '1tbs'],
     'comma-dangle':                         [2, 'always-multiline'],
+    'consistent-return':                    [2, { 'treatUndefinedAsUnspecified': true }],
     curly:                                  [2, 'all'],
     'function-paren-newline':               [2, 'multiline'],
     indent:                                 [2, 2, { SwitchCase: 1, MemberExpression: 1 }],

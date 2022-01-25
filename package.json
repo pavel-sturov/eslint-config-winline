@@ -8,6 +8,15 @@
   },
   "author": "Pavel Sturov",
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "react",
+    "typescript",
+    "config",
+    "cra",
+    "styleguide",
+    "lint"
+  ],
   "devDependencies": {
     "eslint": "^8.7.0",
     "@typescript-eslint/eslint-plugin": "^5.9.1",
