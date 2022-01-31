@@ -1,11 +1,9 @@
-# Eslint Winline-Mobile config
-
 ![Build Status](https://img.shields.io/bundlephobia/min/eslint-config-winline)
 ![Build Status](https://img.shields.io/github/package-json/v/pavel-sturov/eslint-config-winline?color=green)
 
-### Package based on Airbnb, React & TypeScript-Eslint recommended rules.
+# ESLint config Winline mobile
 
-<img src="https://raw.githubusercontent.com/pavel-sturov/eslint-config-winline/main/src/assets/icon.jpeg" alt="drawing" width="200"/>
+Package based on Airbnb, React & TypeScript-Eslint recommended rules.
 
 # Installation
 
@@ -16,8 +14,9 @@ $ npm install eslint-config-winline --save-dev
 ```
 
 Using yarn:
+
 ```sh
-$ yarn add eslint-config-winline
+$ yarn add eslint-config-winline --dev
 ```
 
 # Configuration
@@ -45,6 +44,7 @@ module.exports = {
 ```
 
 # Includes:
+
 | Package          | About                                                                                              |
 |------------------|----------------------------------------------------------------------------------------------------|
 | [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)          | An ESLint plugin which provides lint rules for TypeScript codebases.                               |
