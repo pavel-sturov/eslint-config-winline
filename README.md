@@ -1,6 +1,8 @@
 ![Build Status](https://img.shields.io/bundlephobia/min/eslint-config-winline)
 ![Build Status](https://img.shields.io/github/package-json/v/pavel-sturov/eslint-config-winline?color=green)
 
+<img src="https://raw.githubusercontent.com/pavel-sturov/eslint-config-winline/2ba75298b108b7c8d7ff5ee5828013ab1ce5fd11/src/assets/logo.svg" alt="drawing" width="200"/> 
+
 # ESLint config Winline mobile
 
 Package based on Airbnb, React & TypeScript-Eslint recommended rules.
