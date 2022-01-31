@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-winline",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Eslint config package for winline mobile project based on airbnb & react configs.",
   "main": "index.js",
   "scripts": {
