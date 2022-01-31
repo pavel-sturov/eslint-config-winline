@@ -13,7 +13,6 @@
     "react",
     "typescript",
     "config",
-    "cra",
     "styleguide",
     "lint"
   ],
