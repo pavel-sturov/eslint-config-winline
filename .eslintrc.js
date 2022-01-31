@@ -1,22 +1,25 @@
 module.exports = {
-  env:           {
+  env:            {
     node:    true,
     browser: true,
     es2021:  true,
   },
-  extends:       [
+  extends:        [
     'airbnb',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
   ],
-  parser:        '@typescript-eslint/parser',
-  parserOptions: {
+  ignorePatterns: [
+    'webpack/*',
+  ],
+  parser:         '@typescript-eslint/parser',
+  parserOptions:  {
     ecmaFeatures: { jsx: true },
     ecmaVersion:  12,
     sourceType:   'module',
   },
-  plugins:       ['react', '@typescript-eslint'],
-  rules:         {
+  plugins:        ['react', '@typescript-eslint'],
+  rules:          {
     '@typescript-eslint/ban-types':         [2, { extendDefaults: true, types: { '{}': false } }],
     '@typescript-eslint/no-shadow':         2,
     'arrow-parens':                         [2, 'as-needed'],
