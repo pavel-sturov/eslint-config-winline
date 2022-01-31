@@ -5,6 +5,8 @@
 
 ### Package based on Airbnb, React & TypeScript-Eslint recommended rules.
 
+<img src="https://raw.githubusercontent.com/pavel-sturov/eslint-config-winline/main/src/assets/icon.jpeg" alt="drawing" width="200"/>
+
 # Installation
 
 Using npm:
