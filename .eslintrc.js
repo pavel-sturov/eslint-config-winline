@@ -10,7 +10,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
   ],
   ignorePatterns: [
-    'webpack/*',
+    'config/*',
   ],
   parser:         '@typescript-eslint/parser',
   parserOptions:  {
