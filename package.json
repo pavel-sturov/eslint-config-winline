@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-winline",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Eslint config package for winline mobile project based on airbnb & react configs.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/pavel-sturov/eslint-config-winline.git"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "eslint": "^7.11.0",
     "@typescript-eslint/eslint-plugin": "^5.9.1",
     "@typescript-eslint/parser": "^5.9.1",
@@ -32,8 +32,5 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0"
-  },
-  "peerDependencies": {
-    "eslint": "^7.11.0"
   }
 }
