@@ -26,7 +26,7 @@ module.exports = {
     'brace-style':                          [2, '1tbs'],
     'comma-dangle':                         [2, 'always-multiline'],
     curly:                                  [2, 'all'],
-    'function-paren-newline':               [2, 'multiline'],
+    'function-paren-newline':               [2, 'consistent'],
     indent:                                 [2, 2, { SwitchCase: 1, MemberExpression: 1 }],
     'lines-between-class-members':          [2, 'always', { exceptAfterSingleLine: true }],
     'key-spacing':                          [2, { mode: 'minimum', align: 'value' }],
